@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+   max-width: 400px;
+   text-align: center;
+   padding: 1.5rem;
+   background-color: #000;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0px 30px;
+    color: #fff;
+}
+.card{
+    position: relative;
+    padding: 25px 15px;
+    background-color: #fff;
+    margin: 25px 0;
+    width: 115%;
+    border-radius: 10px;
+}
+
+.card img{
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 82%);
+    width: 250px;
+    height: 400px;
+}
+.top{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.card p{
+    text-align: left;
+    font-style: italic;
+}
